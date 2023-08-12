@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'mt-app',
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'meat-app';
+
+  content = 'Welcome do Meat App!'
+
 }
