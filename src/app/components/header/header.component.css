@@ -14,3 +14,7 @@
   align-items: center;
   text-align: center;
 }
+
+.main-header {
+  border-bottom:0;
+}
