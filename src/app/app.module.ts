@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { RestaurantComponent } from './components/restaurants/restaurant/restaurant.component';
 import { RestaurantsComponent } from './components/restaurants/restaurants.component';
+import { RestaurantsService } from './components/restaurants/restaurant/model/restaurants.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { RestaurantsComponent } from './components/restaurants/restaurants.compo
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [RestaurantsService],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
