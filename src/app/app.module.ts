@@ -9,6 +9,8 @@ import { AboutComponent } from './components/about/about.component';
 import { RestaurantComponent } from './components/restaurants/restaurant/restaurant.component';
 import { RestaurantsComponent } from './components/restaurants/restaurants.component';
 import { RestaurantsService } from './components/restaurants/restaurant/model/restaurants.service';
+import { HttpClientModule } from '@angular/common/http'
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { RestaurantsService } from './components/restaurants/restaurant/model/re
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [RestaurantsService],
   bootstrap: [AppComponent],
